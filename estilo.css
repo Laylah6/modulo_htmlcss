@@ -1,0 +1,43 @@
+body {
+    background-color: #f8dfda;
+    margin-top: 0px
+}
+header{
+    text-align: center;
+    font-style: italic;
+    font-family: script;
+    color:#174d4d;
+    background-color: #ce8477;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ce8477;
+    margin: auto;
+    max-width: auto;
+    font-family:serif;
+}
+.container img {
+    height: 80%;
+    width: 85%;
+}
+.item {
+    text-align: center;
+}
+h2 {
+    color: #383535;
+    text-align: center;
+}
+
+main{ flex 85%;
+} 
+
+aside { flex 15%;
+    background-color: #ffb69c;
+}
+.container_aside {
+    display: flex;
+} 
+footer{
+    background-color: #1b6464;
+}
