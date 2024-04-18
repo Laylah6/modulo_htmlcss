@@ -9,12 +9,14 @@ header{
     color:#174d4d;
     background-color: #ce8477;
 }
+nav {
+    color:#1b6464
+
+}
 .container {
     display: flex;
     flex-direction: row;
     background-color: #ce8477;
-    margin: auto;
-    max-width: auto;
     font-family:serif;
 }
 .container img {
@@ -34,10 +36,17 @@ main{ flex 85%;
 
 aside { flex 15%;
     background-color: #ffb69c;
+    color:#383535
 }
 .container_aside {
     display: flex;
 } 
+article{
+    text-indent: 5%;
+    letter-spacing: 2px;
+    border: 2px solid #ffb69c;
+}
+
 footer{
     background-color: #1b6464;
 }

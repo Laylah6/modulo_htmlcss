@@ -32,9 +32,9 @@
         </div>
         <main class="container_aside">
             <aside>
-                <p>Roupas</p>
-                <p>Acessórios</p>
-                <p>Calçados</p>
+                <p><h3>Roupas</h3></p>
+                <p><h3>Acessórios</h3></p>
+                <p><h3>Calçados</h3></p>
             </aside>
                 
             <div class="container">
@@ -42,18 +42,22 @@
                 <div class="item"><h2>Item 1</h2>
                     <img src="imagens\item1-roupa.jpg" title="Item 1">
                     <p>Saia floral em tecido 100% modal </p>
+                    <p>R$59,90</p>
                 </div>
                 <div class="item"><h2>Item 2</h2>
                     <img src="imagens\item2-vestido.jpg" title="Item 2">
                     <p>Vestido em crepe de seda(98%) e elastano (2%)</p>
+                    <p>R$199,90</p>
                 </div> 
                 <div class="item"><h2>Item 3</h2>
                     <img src="imagens\item3-roupa.jpg" title="Item 3">
                     <p>Saia floral com abertura e saia interna tudo em cepe de seda(100%)</p>
+                    <p>R$69,90</p>
                 </div>
                 <div class="item"><h2>Item 4</h2>
                     <img src="imagens\item4-blusa.jpg" title="Item 4">
                     <p>Blusa em renda de seda</p>
+                    <p>109,90</p>
                 </div>
             </div>    
     </div>
@@ -62,19 +66,37 @@
             <div>
                 <section>
                     <form action="submit" method="post">
-                        <label for="text">Escolha qual modelo</label>
-                            <input type="text" id="Texto" name="text" ><br>
-                            <label for=""></label>
-                                <input type="checkbox" id="pequeno" name="opção" value="opção1">Tamanho P
-                                <input type="checkbox" id="medio" name="opção" value="opção2">Tamanho M
-                                <input type="checkbox" id="grande" name="opção" value="opção3">Tamanho G
-                                    <br>
-                                        <button type="button">Compre aqui</button>
-                                            <p>Deixe sua opnião sobre nossos produtos</p>
-                                                <textarea></textarea> <br>
-                    </form>        
+                        <select name="Roupas">
+                            <option value="">Escolha um dos modelos</option>
+                            <option value="item1">Item 1</option>
+                            <option value="item2">Item 2</option>
+                            <option value="item3">Item 3</option>
+                            <option value="item4">Item 4</option>
+                        </select>
+                            <input type="checkbox" id="pequeno" name="opção" value="opção1">Tamanho P
+                            <input type="checkbox" id="medio" name="opção" value="opção2">Tamanho M
+                            <input type="checkbox" id="grande" name="opção" value="opção3">Tamanho G
+                                <br>
+                                    <button type="button">Compre aqui</button>
+                                <br>
+                                <br>
+                                <label for="text">Informe seu nome</label><br>
+                                    <input type="text" id="username" name="username"><br>
+                                <label for="Email">E-mail:</label><br>
+                                    <input type="email" id="email" name="email"><br>
+                                <label for="telefone">Telefone:</label><br>
+                                    <input type="telefone" id="telefone" name="telefone"><br>
+                                    <p>Deixe sua opnião sobre nossos produtos</p>
+                                         <textarea></textarea> <br>
+                                            <button type="submit">Enviar</button>
+                                            <button type="reset">Apagar</button>
+                                          
                 </section>
-                </div>
+                    </form>        
+                    
+            </div>
+            <br>
+            <br>
                 <div>
                     <article>
                         <p>Nossa história: Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lectus orci, dignissim eget porta sed, varius ac libero.
