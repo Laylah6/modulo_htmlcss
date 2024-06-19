@@ -1,0 +1,9 @@
+html {
+	min-height:100%;
+	position:relative;
+    background-color: #FDF5E6;
+}
+
+body{
+	font-family: "Open Sans";
+}

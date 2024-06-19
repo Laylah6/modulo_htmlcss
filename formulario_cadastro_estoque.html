@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>formulario_estoque</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+        <h1>Cadastro de alimentos</h1>
+            <div class="cadastro_alimentos">
+                <!--Formulário que cadastra nome e outras características dos alimentos.
+                Criar aquivo em receber.php (ou outro nome) para fazer a conexão com banco de dados-->
+
+                <form name="cadastro_alimentos" action="receber.php" method="post">
+                    <label for="alimento">Nome do alimento</label>
+                    <input type="text" id="alimento" name="nome_alimento" required>
+                    <label for="classificacao">Classificação do Alimento</label>
+                    <input type="text" name="classificacao" required><br>
+                    <label for="caloria">Calorias</label>
+                    <input type="text" name="caloria">
+                    <label for="vitaminas">Vitaminas</label>
+                    <input type="text" id="vitaminas" name="vitaminas">
+                    <label for="quantidade">Quantidade em estoque</label>
+                    <input type="text" id="quantidade" name="quantidade">
+
+                </form>
+            </div>
+    </body>
+</html>
